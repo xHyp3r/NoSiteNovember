@@ -5,14 +5,14 @@ border:0px;
 }
 
 body{
-background-image:url(bildes/bk.png) 
+background-image:url(bildes/bk.jpg) 
 }
 
 
 .A {
-background-image:url(bildes/logo.png);
-height:150px;
-width:800px;
+background-image:url(bildes/logo.jpg);
+width:362px;
+height:139px;
 margin:0px auto;
 }
 
@@ -24,7 +24,7 @@ margin:auto;
 }
 
 .D {
-background:#ff7800;
+background:#867979;
 width:780px;
 margin:0px auto;
 color:#ffffff;
@@ -37,33 +37,33 @@ width:100px;
 border:4px;
 padding:10px;
 }
-/*--------Izvelne2 dizaina noformçjums----------*/
+/*--------Izvelne2 dizaina noformÄ“jums----------*/
 
 .izvelne2 {
-background:#ffa500;
+background:#867979;
 padding:10px;
 }
 
 .izvelne2  li{
-list-style-type:none;  /*tiek noòemta nesakârtotâ saraksta simbols pirms nosaukuma*/
-display:inline; /* saraksts tiek atspoguïots horizontâli (pçc noklusçjuma tiek atspoguïots vertikâli) */
+list-style-type:none;  /*tiek noÅ†emta nesakÄrtotÄ saraksta simbols pirms nosaukuma*/
+display:inline; /* saraksts tiek atspoguÄ¼ots horizontÄli (pÄ“c noklusÄ“juma tiek atspoguÄ¼ots vertikÄli) */
 }
 
 .izvelne2 li a{
-text-decoration:none; /*tiek noòemts noklusçtâ krâsa */
-background:#ffa500;
-color:#ffffff; /* teksta krâsa */
-padding:10px; /*attâlums no teksta lîdz taisnastûra malâm*/
+text-decoration:none; /*tiek noÅ†emts noklusÄ“tÄ krÄsa */
+background:#867979;
+color:#ffffff; /* teksta krÄsa */
+padding:10px; /*attÄlums no teksta lÄ«dz taisnastÅ«ra malÄm*/
 }
 
 .izvelne2 li a:hover{
 padding:20px;
 }
-/*--------Izvelne2 dizaina noformçjuma beigas----------*/
+/*--------Izvelne 2 dizaina noformÄ“juma beigas----------*/
 
 
 .epasts {
 color:#000000;
 padding:40px;
-background-color:#ffa500;
+background-color:#867979;
 }
