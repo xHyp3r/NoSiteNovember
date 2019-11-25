@@ -5,12 +5,12 @@ border:0px;
 }
 
 body{
-background-image:url(bildes/bk.jpg) 
+background-image:url(images/bk.jpg) 
 }
 
 
 .A {
-background-image:url(bildes/logo.jpg);
+background-image:url(images/logo.jpg);
 width:362px;
 height:139px;
 margin:0px auto;
@@ -67,3 +67,4 @@ color:#000000;
 padding:40px;
 background-color:#867979;
 }
+
