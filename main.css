@@ -92,3 +92,10 @@ body{
     color: #fff;
     background-color: #7d8285;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
