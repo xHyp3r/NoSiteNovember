@@ -15,7 +15,7 @@ body {
 
 }
 .menu{
-    background-color: black;
+    background-color: grey;
 }
 
 .leftside{
@@ -25,7 +25,7 @@ body {
 }
 
 .main{
-    alignment: center;
+    vertical-align: center;
 }
 
 .rightside{
@@ -60,8 +60,7 @@ body {
 
 .gallery{
     max-width: 200px;
-    alignment: left
-;
+    vertical-align: left;
 
 }
 
