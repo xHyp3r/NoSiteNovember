@@ -1,37 +1,66 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<link rel="stylesheet" type="text/css" href="noformejums.css" />
-<link rel="stylesheet" href="./lightbox/css/lightbox.css">
-<script src="./lightbox/js/lightbox-plus-jquery.js"></script>
-<title>Galerija</title>
+    <title>Gleznas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
 </head>
 <body>
-<div class = "A"></div>
-<div class = "C">
-	<ul class = "izvelne2">
-	<li><a href = "index.html">Sākums</a></li>
-	<li><a href = "galerija.html">Galerija</a></li>
-	<li><a href = "kontakti.html">Kontakti</a></li>
-	</ul>
-</div>
-<div class = "D">
 
-<a href="./galerija.html">Foto Galerija</a>
-<a href="./video_galerija.html">Video galerija</a><hr>
-<a href="./bildes/1.png" data-lightbox="1.png" title="RVT Logo"><img src="./bildes/1.png" class="gallery"></a>
-<a href="./bildes/2.jpg" data-lightbox="2.jpg" title="RVT Pašpārvalde"><img src="./bildes/2.jpg" class="gallery"></a>
-<a href="./bildes/3.png" data-lightbox="3.png" title="RVT Sociālajos tīklos"><img src="./bildes/3.png" class="gallery"></a>
-<a href="./bildes/4.jpg" data-lightbox="4.jpg" title="Rīgas Valsts tehnikums no ārienes"><img src="./bildes/4.jpg" class="gallery"></a>
-<hr>
-<div>
-	<footer>
-	<p>Posted by: Valdis Valainis</p>
-	<p>Contact information: <a href="mailto:valainisvaldis02@gmail.com">
-	valainisvaldis02@gmail</a>.</p>
-	</footer>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="index.html">
+        <img src="images/nellijalogobalts.png" alt="logo" style="width:90px;">
+    </a>
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Jaunumi</a>
+        </li>
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="galerija.html" id="navbardrop" data-toggle="dropdown">
+                Galerija
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="galerija.html">Bildes</a>
+                <a class="dropdown-item" href="video_galerija.html">Video</a>
+            </div>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="kontakti.html">Kontakti</a>
+        </li>
+    </ul>
+</nav>
+<div class="photo-gallery">
+    <div class="container">
+        <div class="intro">
+            <h2 class="text-center">Mākslas darbi</h2>
+        </div>
+        <div class="row photos">
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/glezna%20(8).png" data-lightbox="photos"><img class="img-fluid" src="images/glezna%20(8).png"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/glezna%20(7).png" data-lightbox="photos"><img class="img-fluid" src="images/glezna%20(7).png"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/glezna%20(6).png" data-lightbox="photos"><img class="img-fluid" src="images/glezna%20(6).png"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/glezna%20(4).png" data-lightbox="photos"><img class="img-fluid" src="images/glezna%20(4).png"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/glezna%20(5).png" data-lightbox="photos"><img class="img-fluid" src="images/glezna%20(5).png"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/glezna%20(3).png" data-lightbox="photos"><img class="img-fluid" src="images/glezna%20(3).png"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/glezna%20(1).png" data-lightbox="photos"><img class="img-fluid" src="images/glezna%20(1).png"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/glezna%20(2).png" data-lightbox="photos"><img class="img-fluid" src="images/glezna%20(2).png"></a></div>
+        </div>
+    </div>
 </div>
-</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+<br>
 </body>
 </html>
