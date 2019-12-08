@@ -12,7 +12,7 @@ body{
     background-size:fill;
 }
 .bg-dark {
-    background-color: #2a6eb1 !important;
+    background-color: #f0d330 !important;
 }
 .contactus-one .contact-form .form-control {
     border-top: none;
@@ -21,7 +21,7 @@ body{
     border-bottom: 1px solid #fff;
     border-radius: 0px;
     background-color: transparent;
-    color: #fff;
+    color: black;
     height: 50px;
 }
 .contactus-one .contact-form .form-control {
@@ -61,7 +61,7 @@ body{
 }
 .contact-info > div > p {
     margin-bottom: 10px;
-    color: white;
+    color: black;
 }
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
     cursor: pointer;

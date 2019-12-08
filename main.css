@@ -2,14 +2,14 @@
     text-align: center !important;
     color: white;
 }
-.tattoo{
+.haircuts{
     text-align: center;
     padding-top: 30px;
     height: 315px;
 }
 .h2, h2 {
     font-size: 2rem;
-    color: #2a6eb1;
+    color: #f0d330;
     text-align: center;
 }
 
@@ -21,7 +21,7 @@ body{
     background-size:fill;
 }
 .bg-dark {
-    background-color: #2a6eb1 !important;
+    background-color: #f0d330 !important;
 }
 .photo-gallery p {
     color:#7d8285;
@@ -31,7 +31,7 @@ body{
     font-weight:bold;
     margin-bottom:40px;
     padding-top:40px;
-    color:#2a6eb1;;
+    color:#f0d330;;
 }
 
 @media (max-width:767px) {
@@ -64,7 +64,7 @@ body{
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1.25rem;
-    background: #1d2124;
+    background: #e6a62f;
 }
 .custom-control-label {
     position: relative;
@@ -85,10 +85,10 @@ body{
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
 }
-.table-dark td, .table-dark th, .table-dark thead th {
+.table-light td, .table-light th, .table-light thead th {
     border-color: #545b62;
 }
-.table-dark {
+.table-light {
     color: #fff;
-    background-color: #1d2124;
+    background-color: #7d8285;
 }
