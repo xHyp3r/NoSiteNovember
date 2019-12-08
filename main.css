@@ -9,7 +9,7 @@
 }
 .h2, h2 {
     font-size: 2rem;
-    color: #f0d330;
+    color: black;
     text-align: center;
 }
 
@@ -89,8 +89,8 @@ body{
     border-color: #545b62;
 }
 .table-light {
-    color: #fff;
-    background-color: #7d8285;
+    color: black;
+    background-color: rgb(228, 174, 76);
 }
 
 .center {
